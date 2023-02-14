@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href=images/icon.png type = "image/x-icon">
+        <link rel="stylesheet" href="1lr.css">
+        <style type="text/css">
+            #lr { 
+                color:blue; 
+                text-decoration: none;
+                border-bottom: 1px dashed blue;
+            }
+        </style>
+        <title> 1 ЛР </title>
+    </head>
+    <body>
+        <nav class="navigation"> <!--Навигационная панель-->
+            <a href="1lr.html" class="lr1">1 ЛР</a>
+            <a href="2lr.html">2 ЛР</a> 
+            <a href="3lr.html">3 ЛР</a>
+            <a href="4lr.html">4 ЛР</a>
+            <a href="RGR.html">РГР</a>
+        </nav>
+        <main>
+            <header>
+                <h2> 1 лабораторная работа </h2>
+                <hr>
+            </header>
+        <div>
+            <div class="html">
+                <div>
+                    <p class="lorem">Язык разметки гипертекста HTML (Hypertext markup language) — язык разметки, используемый для создания гипертекстовых html-документов, отображаемых браузером. Гипертекст — форматированный текст, содержащий ссылки на другие документы (гиперссылки). Разметка — вставка в текст дополнительных служебных символов, каждый из которых является командой, указывающей браузеру, как следует отображать документ. С помощью тегов в html-документ вставляются файлы, содержащие дополнительные данные (например, графику) и размечаются гиперссылки, посредством которых данный html-документ связывается с другими html-документами.</p>
+                    <p class="lorem">Как правило, теги состоят из начального и конечного элементов, между которыми размещаются текст и другие элементы html-документа. Имя конечного тега совпадает с именем начального, но перед именем конечного тега ставится косая черта. В начальном элементе тега может располагаться перечень атрибутов тега. Атрибуты тега следуют за именем и отделяются друг от друга одним или несколькими пробелами. Порядок записи атрибутов в начальном элементе тега значения не имеет. Значение атрибута, если имеется, следует за знаком равенства, стоящим после имени атрибута.</p>
+                </div>
+                <div>
+                    <img src="images/html.png" class="htm">
+                </div>
+            </div>
+            <div class="list">
+                <ol type="a" start="13"> <!--Список-->
+                    <li><span>Java - строго типизированный объектно-ориентированный язык программирования общего назначения, разработанный компанией Sun Microsystems.</span></li> <!--Строки-->
+                    <li>C++ - компилируемый, статически типизированный язык программирования общего назначения.</li>
+                    <li><span>Python - высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью.</span></li>
+                    <li>C# - объектно-ориентированный язык программирования.</li>
+                    <li>PHP - C-подобный скриптовый язык общего назначения, интенсивно применяемый для разработки веб-приложений.</li>
+                </ol>
+            </div>
+            <div class="wolf_l">
+                <p><a href="1lr.html#волк" id="wolf_link">Ссылочка на волчишку</a></p>
+            </div>
+            <div id="tab">
+                <table>
+                    <tr><th colspan="2"> Заголовок </th><td rowspan="3"> <mark>Столбец</mark> </td></tr>
+                    <tr><td> Ячейка </td><td> Ячейка </td></tr>
+                    <tr><td> Ячейка </td><td> Ячейка </td></tr>
+                </table>
+            </div>
+            <div>
+                <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nostrum aspernatur cupiditate distinctio id et recusandae quasi a? Ab, maxime est. Possimus repellendus incidunt accusamus fugit illo omnis tenetur recusandae vel aut exercitationem dolore magni cupiditate eum quam perspiciatis, at soluta, quis ut ipsa accusantium ipsum totam? Unde aliquam voluptatum neque expedita, magnam, delectus dolorem obcaecati ipsum vero minima animi pariatur repellendus incidunt consectetur ratione?</p>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="checkbox" value="html">
+                <label for="checkbox1">HTML</label>
+                <br>
+                <input type="checkbox" id="checkbox" value="css">
+                <label for="checkbox2">CSS</label>
+                <br>
+                <input type="checkbox" id="checkbox" value="js">
+                <label for="checkbox3">JavaScript</label>
+            </div>
+            <div class="colr">
+                <p class="choise">Выберите цвет:</p>
+                <div class="keys">
+                    <input type="color" id="color" value="#FF8300">
+                    <input type="submit" id="submit">
+                    <input type="reset" id="reset">
+                </div>
+            </div>
+            <div class="pr">
+                <div>
+                <pre>
+            / \
+           /   \
+           \   /
+            \ /
+             |
+            /|\
+           / | \
+          /  |  \
+         /   |   \
+             |
+             |
+             |
+             |
+            / \
+           /   \
+          /     \
+                </pre>
+                </div>
+            </div>
+            <div class="textstyle">
+                <p class="text"><span style="color:red; text-decoration: none;
+                    border-bottom: 1px dashed red;">Сегодня </span> <time>18.02.2023</time> мы сдаем <span id="lr">1ЛР!</span></p>
+            </div>
+            <div id="det">
+                <details open>
+                    <summary>Пункт 1</summary>
+                    Показываем текст
+                </details>
+                <details>
+                    <summary>Пункт 2</summary>
+                    Не показываем текст
+                </details>
+            </div>
+            <div class="animals">
+                <figure>
+                    <p><a name="волк"><img src="images/wolf.jpg" id="wolf"></a></p>
+                    <figcaption>Волчишка</figcaption>
+                </figure>
+                <figure class="wolf22">
+                    <p><a name="волк2"><img src="images/wolf2.jpg" id="wolf2"></a></p>
+                    <figcaption>Волчишка 2</figcaption>
+                </figure>
+                <figure class="lion">
+                    <p><a name="лев"><img src="images/lion.jpg" id="lion"></a></p>
+                    <figcaption>Лев</figcaption>
+                </figure>
+            </div>
+        </div>
+        </main>
+    </body>
+</html>

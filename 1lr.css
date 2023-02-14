@@ -1,0 +1,238 @@
+nav {
+    background: #222222;
+    padding: 8px;
+    margin: -8px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    transition: background-color .5s;
+}
+
+nav a:active{
+    color: rgb(34, 34, 34);
+}
+
+nav a:hover {
+    background-color: rgb(77, 77, 77);
+    border-radius: 15px;
+    transition: background-color .5s;
+}
+
+.lr1 {
+    background-color: rgb(60, 60, 60);
+    border-radius: 15px;
+}
+
+main {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+body {
+    background: rgb(255, 244, 227);
+    font-family: sans-serif;
+}
+
+header h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+hr {
+    margin-bottom: 0;
+}
+
+.html {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lorem {
+    text-align : justify;
+    text-indent: 20px;
+    background: rgb(254, 233, 204);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.htm {
+    height: 275px;
+    margin-left: 15px;
+    border-radius: 35px;
+}
+
+.list {
+    background: rgb(254, 233, 204);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.wolf_l {
+    display: flex;
+    justify-content: center;
+}
+
+#wolf_link {
+    color:#73f9f4;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: rgb(0, 0, 0) 1px 0 6px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#wolf_link:hover {
+    color: #ffd3d3;
+    background-color: rgb(137, 137, 137);
+    border-radius: 15px;
+    transition: background-color .5s, color .5s;
+}
+
+table, td, th {
+    border: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+    background: rgb(254, 233, 204);
+}
+
+td, th {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#tab {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#det {
+    padding-bottom: 10px;
+}
+
+.check {
+    background: rgb(254, 233, 204);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.choise{
+    margin-top: 0px;
+}
+
+.colr {
+    background: rgb(254, 233, 204);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.pr {
+    background: rgb(254, 233, 204);
+    border-radius: 15px;
+    margin-top: 15px;
+    padding-top: 5px;
+}
+
+.keys {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#submit {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.textstyle {
+    background: rgb(254, 233, 204);
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.text {
+    margin: 0px;
+    padding: 15px;
+}
+
+#det {
+    background: rgb(254, 233, 204);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+details {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+#wolf {
+    width: 60%;
+    border: 2px solid;
+    
+}
+
+figure {
+    width: 25%;
+    background: rgb(254, 233, 204);
+    padding: 10px 10px 20px 10px;
+    border: 2px solid;
+    display: block;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+figcaption {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.animals {
+    display: flex;
+    justify-content: space-between;
+}
+
+#wolf2 {
+    width: 90%;
+    border: 2px solid;
+}
+
+#lion {
+    width: 90%;
+    border: 2px solid;
+}
+
+.lion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wolf22 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
