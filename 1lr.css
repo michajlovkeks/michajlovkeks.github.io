@@ -71,6 +71,23 @@ hr {
     border-radius: 15px;
 }
 
+.mar {
+    margin-left: -5px;
+    margin-right: -5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 15px;
+    background: rgb(255, 201, 126);
+}
+
+.list li {
+    margin-bottom: 5px;
+}
+
+.check input {
+    margin-bottom: 10px;
+}
+
 .htm {
     height: 275px;
     margin-left: 15px;
