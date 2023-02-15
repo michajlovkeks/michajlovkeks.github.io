@@ -210,7 +210,7 @@ details {
 #wolf {
     width: 60%;
     border: 2px solid;
-    
+    border-radius: 5px;
 }
 
 figure {
@@ -221,6 +221,7 @@ figure {
     display: block;
     margin: 5px 5px 5px 5px;
     text-align: center;
+    border-radius: 5px;
 }
 
 figcaption {
@@ -231,16 +232,19 @@ figcaption {
 .animals {
     display: flex;
     justify-content: space-between;
+    border-radius: 5px;
 }
 
 #wolf2 {
     width: 90%;
     border: 2px solid;
+    border-radius: 5px;
 }
 
 #lion {
     width: 90%;
     border: 2px solid;
+    border-radius: 5px;
 }
 
 .lion {
