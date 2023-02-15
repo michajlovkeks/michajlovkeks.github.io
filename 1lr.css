@@ -164,6 +164,16 @@ td, th {
     border-radius: 15px;
     padding: 15px;
     margin-top: 15px;
+    display: flex;
+    justify-content: left;
+}
+
+.color_div2 {
+    width: 5%;
+    margin-left: 20px;
+    background: #222222;
+    border: 1px solid #000;
+    border-radius: 10px;
 }
 
 .pr {
@@ -179,7 +189,7 @@ td, th {
     align-items: center;
 }
 
-#submit {
+.submit {
     margin-left: 10px;
     margin-right: 10px;
 }
