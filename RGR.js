@@ -1,6 +1,8 @@
 let btn = document.querySelector('.clr')
 let h = document.querySelector('.hex')
 let field = document.querySelector('.h')
+let ul_btn = document.querySelector('ul')
+let body_back = document.querySelector('body')
 
 let r = document.querySelector('.r')
 let g = document.querySelector('.g')
@@ -69,5 +71,36 @@ field.oncontextmenu = function (event) {
         b = "0" + b;
     }
     document.querySelector('.txt').style.color = "#" + r + g + b;
-
 }
+
+ul_btn.onclick = function (event) {
+    let clrclr = event.target.style.background
+    document.querySelector('body').style.background = clrclr;
+}
+
+body_back.onclick = function (event) {
+    document.querySelector('body').style.background = rgb(255, 244, 227);
+}
+
+
+// let arr = ['00', '33', '66', '99', 'CC', 'FF']
+
+// const combine = (arr, k, withRepetition = false) => {
+//     const combinations = []
+//     const combination = Array(k)
+//     const internalCombine = (start, depth) => {
+//         if (depth === k) {
+//             combinations.push([...combination])
+//             return
+//         }
+//         for (let index = start; index < arr.length; ++index) {
+//             combination[depth] = arr[index]
+//             internalCombine(index + (withRepetition ? 0 : 1), depth + 1)
+//         }
+//     }
+//     internalCombine(0, 0)
+//     return combinations
+// }
+
+// const combinations = combine(arr, 3)
+// console.log({ combinations: combinations.map(c => c.join()) })

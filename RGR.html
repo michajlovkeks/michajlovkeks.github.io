@@ -1,40 +1,714 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="icon" href=images/icon.png type = "image/x-icon">
-        <link rel="stylesheet" href="RGR.css">
-        <title> РГР </title>
-    </head>
-    <body>
-        <nav class="navigation"> <!--Навигационная панель-->
-            <a href="index.html">1 ЛР</a>
-            <a href="2lr.html">2 ЛР</a> 
-            <a href="3lr.html">3 ЛР</a>
-            <a href="4lr.html">4 ЛР</a>
-            <a href="RGR.html" class="rgr">РГР</a>
-        </nav>
-        <main>
-            <header>
-                <h2> Расчётно-графическая работа </h2>
-            </header>
-            <div class="bl">
-                <section class="color">
-                    <div class="h">
-                        <p class="hex">HEX</p>
-                    </div>
-                    <div class="in">
-                        <input type="text" value="255" class="r">
-                        <input type="text" value="255" class="g">
-                        <input type="text" value="255" class="b">
-                        <button class="clr"> Сменить цвет </button>
-                    </div>
-                </section>
-                <section class="txt">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum perspiciatis perferendis animi veritatis sint eum vitae laudantium atque, at, deserunt beatae optio odit corporis maxime mollitia iste incidunt quibusdam possimus quia saepe totam reprehenderit. Maxime iste quisquam blanditiis. Ipsum suscipit nemo, unde neque quas nisi, eaque magni in est repudiandae labore quo saepe quis? Ducimus obcaecati eligendi corporis quos aliquam fugiat tempore, totam enim nulla, aperiam est recusandae odio vitae velit ipsa fuga consectetur? Pariatur mollitia nesciunt dicta quibusdam unde omnis est earum, atque, asperiores placeat fugit soluta, voluptas quo provident animi sint quia? Culpa porro voluptatum iste reprehenderit, deleniti quod eius suscipit autem nulla sint odit unde ad natus hic distinctio reiciendis excepturi laboriosam deserunt id, tempora totam illum. Atque, impedit voluptatem exercitationem molestias iure ut reiciendis quos vel expedita? Aut nostrum ab ad ipsa pariatur impedit ex numquam voluptatum? Alias quaerat ullam expedita libero magnam temporibus voluptas? Voluptates temporibus accusantium quidem esse, eius harum dolore dolor error itaque. Sint ab officia earum alias quaerat dicta fugit odit non expedita unde similique, placeat perferendis tenetur et voluptatibus hic rerum quo ex quam vero ipsam nam a. Quia odit repudiandae enim inventore voluptatum. Ab odit minima, deleniti veniam dicta animi.</p>
-                </section>
-            </div>
-        </main>
-        <script src="RGR.js"></script>
-    </body>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href=images/icon.png type = "image/x-icon">
+    <link rel="stylesheet" href="RGR.css" />
+    <title>РГР</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <!--Навигационная панель-->
+      <a href="index.html">1 ЛР</a>
+      <a href="2lr.html">2 ЛР</a>
+      <a href="3lr.html">3 ЛР</a>
+      <a href="4lr.html">4 ЛР</a>
+      <a href="RGR.html" class="rgr">РГР</a>
+    </nav>
+    <main>
+      <header>
+        <h2>Расчётно-графическая работа</h2>
+      </header>
+      <div class="bl">
+        <section class="color">
+          <div class="h">
+            <p class="hex">HEX</p>
+          </div>
+          <div class="in">
+            <input type="text" value="255" class="r" />
+            <input type="text" value="255" class="g" />
+            <input type="text" value="255" class="b" />
+            <button class="clr">Сменить цвет</button>
+          </div>
+        </section>
+        <section class="txt">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+            perspiciatis perferendis animi veritatis sint eum vitae laudantium
+            atque, at, deserunt beatae optio odit corporis maxime mollitia iste
+            incidunt quibusdam possimus quia saepe totam reprehenderit. Maxime
+            iste quisquam blanditiis. Ipsum suscipit nemo, unde neque quas nisi,
+            eaque magni in est repudiandae labore quo saepe quis? Ducimus
+            obcaecati eligendi corporis quos aliquam fugiat tempore, totam enim
+            nulla, aperiam est recusandae odio vitae velit ipsa fuga
+            consectetur? Pariatur mollitia nesciunt dicta quibusdam unde omnis
+            est earum, atque, asperiores placeat fugit soluta, voluptas quo
+            provident animi sint quia? Culpa porro voluptatum iste
+            reprehenderit, deleniti quod eius suscipit autem nulla sint odit
+            unde ad natus hic distinctio reiciendis excepturi laboriosam
+            deserunt id, tempora totam illum. Atque, impedit voluptatem
+            exercitationem molestias iure ut reiciendis quos vel expedita? Aut
+            nostrum ab ad ipsa pariatur impedit ex numquam voluptatum? Alias
+            quaerat ullam expedita libero magnam temporibus voluptas? Voluptates
+            temporibus accusantium quidem esse, eius harum dolore dolor error
+            itaque. Sint ab officia earum alias quaerat dicta fugit odit non
+            expedita unde similique, placeat perferendis tenetur et voluptatibus
+            hic rerum quo ex quam vero ipsam nam a. Quia odit repudiandae enim
+            inventore voluptatum. Ab odit minima, deleniti veniam dicta animi.
+          </p>
+        </section>
+      </div>
+      <ul id="web-safe" class="color-zoom-light">
+        <li style="background: #ffffcc">
+          <i><u>255 255 204</u><q>#FFFFCC</q></i>
+        </li>
+        <li style="background: #ffff99">
+          <i><u>255 255 153</u><q>#FFFF99</q></i>
+        </li>
+        <li style="background: #ffff66">
+          <i><u>255 255 102</u><q>#FFFF66</q></i>
+        </li>
+        <li style="background: #ffff33">
+          <i><u>255 255 51</u><q>#FFFF33</q></i>
+        </li>
+        <li style="background: #ffff00">
+          <i><u>255 255 0</u><q>#FFFF00</q></i>
+        </li>
+        <li style="background: #cccc00">
+          <i><u>204 204 0</u><q>#CCCC00</q></i>
+        </li>
+        <li style="background: #ffcc66">
+          <i><u>255 204 102</u><q>#FFCC66</q></i>
+        </li>
+        <li style="background: #ffcc00">
+          <i><u>255 204 0</u><q>#FFCC00</q></i>
+        </li>
+        <li style="background: #ffcc33">
+          <i><u>255 204 51</u><q>#FFCC33</q></i>
+        </li>
+        <li style="background: #cc9900">
+          <i><u>204 153 0</u><q>#CC9900</q></i>
+        </li>
+        <li style="background: #cc9933">
+          <i><u>204 153 51</u><q>#CC9933</q></i>
+        </li>
+        <li style="background: #996600">
+          <i><u>153 102 0</u><q>#996600</q></i>
+        </li>
+        <li style="background: #ff9900">
+          <i><u>255 153 0</u><q>#FF9900</q></i>
+        </li>
+        <li style="background: #ff9933">
+          <i><u>255 153 51</u><q>#FF9933</q></i>
+        </li>
+        <li style="background: #cc9966">
+          <i><u>204 153 102</u><q>#CC9966</q></i>
+        </li>
+        <li style="background: #cc6600">
+          <i><u>204 102 0</u><q>#CC6600</q></i>
+        </li>
+        <li style="background: #996633">
+          <i><u>153 102 51</u><q>#996633</q></i>
+        </li>
+        <li style="background: #663300">
+          <i><u>102 51 0</u><q>#663300</q></i>
+        </li>
+        <li style="background: #ffcc99">
+          <i><u>255 204 153</u><q>#FFCC99</q></i>
+        </li>
+        <li style="background: #ff9966">
+          <i><u>255 153 102</u><q>#FF9966</q></i>
+        </li>
+        <li style="background: #ff6600">
+          <i><u>255 102 0</u><q>#FF6600</q></i>
+        </li>
+        <li style="background: #cc6633">
+          <i><u>204 102 51</u><q>#CC6633</q></i>
+        </li>
+        <li style="background: #993300">
+          <i><u>153 51 0</u><q>#993300</q></i>
+        </li>
+        <li style="background: #660000">
+          <i><u>102 0 0</u><q>#660000</q></i>
+        </li>
+        <li style="background: #ff6633">
+          <i><u>255 102 51</u><q>#FF6633</q></i>
+        </li>
+        <li style="background: #cc3300">
+          <i><u>204 51 0</u><q>#CC3300</q></i>
+        </li>
+        <li style="background: #ff3300">
+          <i><u>255 51 0</u><q>#FF3300</q></i>
+        </li>
+        <li style="background: #ff0000">
+          <i><u>255 0 0</u><q>#FF0000</q></i>
+        </li>
+        <li style="background: #cc0000">
+          <i><u>204 0 0</u><q>#CC0000</q></i>
+        </li>
+        <li style="background: #990000">
+          <i><u>153 0 0</u><q>#990000</q></i>
+        </li>
+        <li style="background: #ffcccc">
+          <i><u>255 204 204</u><q>#FFCCCC</q></i>
+        </li>
+        <li style="background: #ff9999">
+          <i><u>255 153 153</u><q>#FF9999</q></i>
+        </li>
+        <li style="background: #ff6666">
+          <i><u>255 102 102</u><q>#FF6666</q></i>
+        </li>
+        <li style="background: #ff3333">
+          <i><u>255 51 51</u><q>#FF3333</q></i>
+        </li>
+        <li style="background: #ff0033">
+          <i><u>255 0 51</u><q>#FF0033</q></i>
+        </li>
+        <li style="background: #cc0033">
+          <i><u>204 0 51</u><q>#CC0033</q></i>
+        </li>
+        <li style="background: #cc9999">
+          <i><u>204 153 153</u><q>#CC9999</q></i>
+        </li>
+        <li style="background: #cc6666">
+          <i><u>204 102 102</u><q>#CC6666</q></i>
+        </li>
+        <li style="background: #cc3333">
+          <i><u>204 51 51</u><q>#CC3333</q></i>
+        </li>
+        <li style="background: #993333">
+          <i><u>153 51 51</u><q>#993333</q></i>
+        </li>
+        <li style="background: #990033">
+          <i><u>153 0 51</u><q>#990033</q></i>
+        </li>
+        <li style="background: #330000">
+          <i><u>51 0 0</u><q>#330000</q></i>
+        </li>
+        <li style="background: #ff6699">
+          <i><u>255 102 153</u><q>#FF6699</q></i>
+        </li>
+        <li style="background: #ff3366">
+          <i><u>255 51 102</u><q>#FF3366</q></i>
+        </li>
+        <li style="background: #ff0066">
+          <i><u>255 0 102</u><q>#FF0066</q></i>
+        </li>
+        <li style="background: #cc3366">
+          <i><u>204 51 102</u><q>#CC3366</q></i>
+        </li>
+        <li style="background: #996666">
+          <i><u>153 102 102</u><q>#996666</q></i>
+        </li>
+        <li style="background: #663333">
+          <i><u>102 51 51</u><q>#663333</q></i>
+        </li>
+        <li style="background: #ff99cc">
+          <i><u>255 153 204</u><q>#FF99CC</q></i>
+        </li>
+        <li style="background: #ff3399">
+          <i><u>255 51 153</u><q>#FF3399</q></i>
+        </li>
+        <li style="background: #ff0099">
+          <i><u>255 0 153</u><q>#FF0099</q></i>
+        </li>
+        <li style="background: #cc0066">
+          <i><u>204 0 102</u><q>#CC0066</q></i>
+        </li>
+        <li style="background: #993366">
+          <i><u>153 51 102</u><q>#993366</q></i>
+        </li>
+        <li style="background: #660033">
+          <i><u>102 0 51</u><q>#660033</q></i>
+        </li>
+        <li style="background: #ff66cc">
+          <i><u>255 102 204</u><q>#FF66CC</q></i>
+        </li>
+        <li style="background: #ff00cc">
+          <i><u>255 0 204</u><q>#FF00CC</q></i>
+        </li>
+        <li style="background: #ff33cc">
+          <i><u>255 51 204</u><q>#FF33CC</q></i>
+        </li>
+        <li style="background: #cc6699">
+          <i><u>204 102 153</u><q>#CC6699</q></i>
+        </li>
+        <li style="background: #cc0099">
+          <i><u>204 0 153</u><q>#CC0099</q></i>
+        </li>
+        <li style="background: #990066">
+          <i><u>153 0 102</u><q>#990066</q></i>
+        </li>
+        <li style="background: #ffccff">
+          <i><u>255 204 255</u><q>#FFCCFF</q></i>
+        </li>
+        <li style="background: #ff99ff">
+          <i><u>255 153 255</u><q>#FF99FF</q></i>
+        </li>
+        <li style="background: #ff66ff">
+          <i><u>255 102 255</u><q>#FF66FF</q></i>
+        </li>
+        <li style="background: #ff33ff">
+          <i><u>255 51 255</u><q>#FF33FF</q></i>
+        </li>
+        <li style="background: #ff00ff">
+          <i><u>255 0 255</u><q>#FF00FF</q></i>
+        </li>
+        <li style="background: #cc3399">
+          <i><u>204 51 153</u><q>#CC3399</q></i>
+        </li>
+        <li style="background: #cc99cc">
+          <i><u>204 153 204</u><q>#CC99CC</q></i>
+        </li>
+        <li style="background: #cc66cc">
+          <i><u>204 102 204</u><q>#CC66CC</q></i>
+        </li>
+        <li style="background: #cc00cc">
+          <i><u>204 0 204</u><q>#CC00CC</q></i>
+        </li>
+        <li style="background: #cc33cc">
+          <i><u>204 51 204</u><q>#CC33CC</q></i>
+        </li>
+        <li style="background: #990099">
+          <i><u>153 0 153</u><q>#990099</q></i>
+        </li>
+        <li style="background: #993399">
+          <i><u>153 51 153</u><q>#993399</q></i>
+        </li>
+        <li style="background: #cc66ff">
+          <i><u>204 102 255</u><q>#CC66FF</q></i>
+        </li>
+        <li style="background: #cc33ff">
+          <i><u>204 51 255</u><q>#CC33FF</q></i>
+        </li>
+        <li style="background: #cc00ff">
+          <i><u>204 0 255</u><q>#CC00FF</q></i>
+        </li>
+        <li style="background: #9900cc">
+          <i><u>153 0 204</u><q>#9900CC</q></i>
+        </li>
+        <li style="background: #996699">
+          <i><u>153 102 153</u><q>#996699</q></i>
+        </li>
+        <li style="background: #660066">
+          <i><u>102 0 102</u><q>#660066</q></i>
+        </li>
+        <li style="background: #cc99ff">
+          <i><u>204 153 255</u><q>#CC99FF</q></i>
+        </li>
+        <li style="background: #9933cc">
+          <i><u>153 51 204</u><q>#9933CC</q></i>
+        </li>
+        <li style="background: #9933ff">
+          <i><u>153 51 255</u><q>#9933FF</q></i>
+        </li>
+        <li style="background: #9900ff">
+          <i><u>153 0 255</u><q>#9900FF</q></i>
+        </li>
+        <li style="background: #660099">
+          <i><u>102 0 153</u><q>#660099</q></i>
+        </li>
+        <li style="background: #663366">
+          <i><u>102 51 102</u><q>#663366</q></i>
+        </li>
+        <li style="background: #9966cc">
+          <i><u>153 102 204</u><q>#9966CC</q></i>
+        </li>
+        <li style="background: #9966ff">
+          <i><u>153 102 255</u><q>#9966FF</q></i>
+        </li>
+        <li style="background: #6600cc">
+          <i><u>102 0 204</u><q>#6600CC</q></i>
+        </li>
+        <li style="background: #6633cc">
+          <i><u>102 51 204</u><q>#6633CC</q></i>
+        </li>
+        <li style="background: #663399">
+          <i><u>102 51 153</u><q>#663399</q></i>
+        </li>
+        <li style="background: #330033">
+          <i><u>51 0 51</u><q>#330033</q></i>
+        </li>
+        <li style="background: #ccccff">
+          <i><u>204 204 255</u><q>#CCCCFF</q></i>
+        </li>
+        <li style="background: #9999ff">
+          <i><u>153 153 255</u><q>#9999FF</q></i>
+        </li>
+        <li style="background: #6633ff">
+          <i><u>102 51 255</u><q>#6633FF</q></i>
+        </li>
+        <li style="background: #6600ff">
+          <i><u>102 0 255</u><q>#6600FF</q></i>
+        </li>
+        <li style="background: #330099">
+          <i><u>51 0 153</u><q>#330099</q></i>
+        </li>
+        <li style="background: #330066">
+          <i><u>51 0 102</u><q>#330066</q></i>
+        </li>
+        <li style="background: #9999cc">
+          <i><u>153 153 204</u><q>#9999CC</q></i>
+        </li>
+        <li style="background: #6666ff">
+          <i><u>102 102 255</u><q>#6666FF</q></i>
+        </li>
+        <li style="background: #6666cc">
+          <i><u>102 102 204</u><q>#6666CC</q></i>
+        </li>
+        <li style="background: #666699">
+          <i><u>102 102 153</u><q>#666699</q></i>
+        </li>
+        <li style="background: #333399">
+          <i><u>51 51 153</u><q>#333399</q></i>
+        </li>
+        <li style="background: #333366">
+          <i><u>51 51 102</u><q>#333366</q></i>
+        </li>
+        <li style="background: #3333ff">
+          <i><u>51 51 255</u><q>#3333FF</q></i>
+        </li>
+        <li style="background: #3300ff">
+          <i><u>51 0 255</u><q>#3300FF</q></i>
+        </li>
+        <li style="background: #3300cc">
+          <i><u>51 0 204</u><q>#3300CC</q></i>
+        </li>
+        <li style="background: #3333cc">
+          <i><u>51 51 204</u><q>#3333CC</q></i>
+        </li>
+        <li style="background: #000099">
+          <i><u>0 0 153</u><q>#000099</q></i>
+        </li>
+        <li style="background: #000066">
+          <i><u>0 0 102</u><q>#000066</q></i>
+        </li>
+        <li style="background: #6699ff">
+          <i><u>102 153 255</u><q>#6699FF</q></i>
+        </li>
+        <li style="background: #3366ff">
+          <i><u>51 102 255</u><q>#3366FF</q></i>
+        </li>
+        <li style="background: #0000ff">
+          <i><u>0 0 255</u><q>#0000FF</q></i>
+        </li>
+        <li style="background: #0000cc">
+          <i><u>0 0 204</u><q>#0000CC</q></i>
+        </li>
+        <li style="background: #0033cc">
+          <i><u>0 51 204</u><q>#0033CC</q></i>
+        </li>
+        <li style="background: #000033">
+          <i><u>0 0 51</u><q>#000033</q></i>
+        </li>
+        <li style="background: #0066ff">
+          <i><u>0 102 255</u><q>#0066FF</q></i>
+        </li>
+        <li style="background: #0066cc">
+          <i><u>0 102 204</u><q>#0066CC</q></i>
+        </li>
+        <li style="background: #3366cc">
+          <i><u>51 102 204</u><q>#3366CC</q></i>
+        </li>
+        <li style="background: #0033ff">
+          <i><u>0 51 255</u><q>#0033FF</q></i>
+        </li>
+        <li style="background: #003399">
+          <i><u>0 51 153</u><q>#003399</q></i>
+        </li>
+        <li style="background: #003366">
+          <i><u>0 51 102</u><q>#003366</q></i>
+        </li>
+        <li style="background: #99ccff">
+          <i><u>153 204 255</u><q>#99CCFF</q></i>
+        </li>
+        <li style="background: #3399ff">
+          <i><u>51 153 255</u><q>#3399FF</q></i>
+        </li>
+        <li style="background: #0099ff">
+          <i><u>0 153 255</u><q>#0099FF</q></i>
+        </li>
+        <li style="background: #6699cc">
+          <i><u>102 153 204</u><q>#6699CC</q></i>
+        </li>
+        <li style="background: #336699">
+          <i><u>51 102 153</u><q>#336699</q></i>
+        </li>
+        <li style="background: #006699">
+          <i><u>0 102 153</u><q>#006699</q></i>
+        </li>
+        <li style="background: #66ccff">
+          <i><u>102 204 255</u><q>#66CCFF</q></i>
+        </li>
+        <li style="background: #33ccff">
+          <i><u>51 204 255</u><q>#33CCFF</q></i>
+        </li>
+        <li style="background: #00ccff">
+          <i><u>0 204 255</u><q>#00CCFF</q></i>
+        </li>
+        <li style="background: #3399cc">
+          <i><u>51 153 204</u><q>#3399CC</q></i>
+        </li>
+        <li style="background: #0099cc">
+          <i><u>0 153 204</u><q>#0099CC</q></i>
+        </li>
+        <li style="background: #003333">
+          <i><u>0 51 51</u><q>#003333</q></i>
+        </li>
+        <li style="background: #99cccc">
+          <i><u>153 204 204</u><q>#99CCCC</q></i>
+        </li>
+        <li style="background: #66cccc">
+          <i><u>102 204 204</u><q>#66CCCC</q></i>
+        </li>
+        <li style="background: #339999">
+          <i><u>51 153 153</u><q>#339999</q></i>
+        </li>
+        <li style="background: #669999">
+          <i><u>102 153 153</u><q>#669999</q></i>
+        </li>
+        <li style="background: #006666">
+          <i><u>0 102 102</u><q>#006666</q></i>
+        </li>
+        <li style="background: #336666">
+          <i><u>51 102 102</u><q>#336666</q></i>
+        </li>
+        <li style="background: #ccffff">
+          <i><u>204 255 255</u><q>#CCFFFF</q></i>
+        </li>
+        <li style="background: #99ffff">
+          <i><u>153 255 255</u><q>#99FFFF</q></i>
+        </li>
+        <li style="background: #66ffff">
+          <i><u>102 255 255</u><q>#66FFFF</q></i>
+        </li>
+        <li style="background: #33ffff">
+          <i><u>51 255 255</u><q>#33FFFF</q></i>
+        </li>
+        <li style="background: #00ffff">
+          <i><u>0 255 255</u><q>#00FFFF</q></i>
+        </li>
+        <li style="background: #00cccc">
+          <i><u>0 204 204</u><q>#00CCCC</q></i>
+        </li>
+        <li style="background: #99ffcc">
+          <i><u>153 255 204</u><q>#99FFCC</q></i>
+        </li>
+        <li style="background: #66ffcc">
+          <i><u>102 255 204</u><q>#66FFCC</q></i>
+        </li>
+        <li style="background: #33ffcc">
+          <i><u>51 255 204</u><q>#33FFCC</q></i>
+        </li>
+        <li style="background: #00ffcc">
+          <i><u>0 255 204</u><q>#00FFCC</q></i>
+        </li>
+        <li style="background: #33cccc">
+          <i><u>51 204 204</u><q>#33CCCC</q></i>
+        </li>
+        <li style="background: #009999">
+          <i><u>0 153 153</u><q>#009999</q></i>
+        </li>
+        <li style="background: #66cc99">
+          <i><u>102 204 153</u><q>#66CC99</q></i>
+        </li>
+        <li style="background: #33cc99">
+          <i><u>51 204 153</u><q>#33CC99</q></i>
+        </li>
+        <li style="background: #00cc99">
+          <i><u>0 204 153</u><q>#00CC99</q></i>
+        </li>
+        <li style="background: #339966">
+          <i><u>51 153 102</u><q>#339966</q></i>
+        </li>
+        <li style="background: #009966">
+          <i><u>0 153 102</u><q>#009966</q></i>
+        </li>
+        <li style="background: #006633">
+          <i><u>0 102 51</u><q>#006633</q></i>
+        </li>
+        <li style="background: #66ff99">
+          <i><u>102 255 153</u><q>#66FF99</q></i>
+        </li>
+        <li style="background: #33ff99">
+          <i><u>51 255 153</u><q>#33FF99</q></i>
+        </li>
+        <li style="background: #00ff99">
+          <i><u>0 255 153</u><q>#00FF99</q></i>
+        </li>
+        <li style="background: #33cc66">
+          <i><u>51 204 102</u><q>#33CC66</q></i>
+        </li>
+        <li style="background: #00cc66">
+          <i><u>0 204 102</u><q>#00CC66</q></i>
+        </li>
+        <li style="background: #009933">
+          <i><u>0 153 51</u><q>#009933</q></i>
+        </li>
+        <li style="background: #99ff99">
+          <i><u>153 255 153</u><q>#99FF99</q></i>
+        </li>
+        <li style="background: #66ff66">
+          <i><u>102 255 102</u><q>#66FF66</q></i>
+        </li>
+        <li style="background: #33ff66">
+          <i><u>51 255 102</u><q>#33FF66</q></i>
+        </li>
+        <li style="background: #00ff66">
+          <i><u>0 255 102</u><q>#00FF66</q></i>
+        </li>
+        <li style="background: #339933">
+          <i><u>51 153 51</u><q>#339933</q></i>
+        </li>
+        <li style="background: #006600">
+          <i><u>0 102 0</u><q>#006600</q></i>
+        </li>
+        <li style="background: #ccffcc">
+          <i><u>204 255 204</u><q>#CCFFCC</q></i>
+        </li>
+        <li style="background: #99cc99">
+          <i><u>153 204 153</u><q>#99CC99</q></i>
+        </li>
+        <li style="background: #66cc66">
+          <i><u>102 204 102</u><q>#66CC66</q></i>
+        </li>
+        <li style="background: #669966">
+          <i><u>102 153 102</u><q>#669966</q></i>
+        </li>
+        <li style="background: #336633">
+          <i><u>51 102 51</u><q>#336633</q></i>
+        </li>
+        <li style="background: #003300">
+          <i><u>0 51 0</u><q>#003300</q></i>
+        </li>
+        <li style="background: #33ff33">
+          <i><u>51 255 51</u><q>#33FF33</q></i>
+        </li>
+        <li style="background: #00ff33">
+          <i><u>0 255 51</u><q>#00FF33</q></i>
+        </li>
+        <li style="background: #00ff00">
+          <i><u>0 255 0</u><q>#00FF00</q></i>
+        </li>
+        <li style="background: #00cc00">
+          <i><u>0 204 0</u><q>#00CC00</q></i>
+        </li>
+        <li style="background: #33cc33">
+          <i><u>51 204 51</u><q>#33CC33</q></i>
+        </li>
+        <li style="background: #00cc33">
+          <i><u>0 204 51</u><q>#00CC33</q></i>
+        </li>
+        <li style="background: #66ff00">
+          <i><u>102 255 0</u><q>#66FF00</q></i>
+        </li>
+        <li style="background: #66ff33">
+          <i><u>102 255 51</u><q>#66FF33</q></i>
+        </li>
+        <li style="background: #33ff00">
+          <i><u>51 255 0</u><q>#33FF00</q></i>
+        </li>
+        <li style="background: #33cc00">
+          <i><u>51 204 0</u><q>#33CC00</q></i>
+        </li>
+        <li style="background: #339900">
+          <i><u>51 153 0</u><q>#339900</q></i>
+        </li>
+        <li style="background: #009900">
+          <i><u>0 153 0</u><q>#009900</q></i>
+        </li>
+        <li style="background: #ccff99">
+          <i><u>204 255 153</u><q>#CCFF99</q></i>
+        </li>
+        <li style="background: #99ff66">
+          <i><u>153 255 102</u><q>#99FF66</q></i>
+        </li>
+        <li style="background: #66cc00">
+          <i><u>102 204 0</u><q>#66CC00</q></i>
+        </li>
+        <li style="background: #66cc33">
+          <i><u>102 204 51</u><q>#66CC33</q></i>
+        </li>
+        <li style="background: #669933">
+          <i><u>102 153 51</u><q>#669933</q></i>
+        </li>
+        <li style="background: #336600">
+          <i><u>51 102 0</u><q>#336600</q></i>
+        </li>
+        <li style="background: #99ff00">
+          <i><u>153 255 0</u><q>#99FF00</q></i>
+        </li>
+        <li style="background: #99ff33">
+          <i><u>153 255 51</u><q>#99FF33</q></i>
+        </li>
+        <li style="background: #99cc66">
+          <i><u>153 204 102</u><q>#99CC66</q></i>
+        </li>
+        <li style="background: #99cc00">
+          <i><u>153 204 0</u><q>#99CC00</q></i>
+        </li>
+        <li style="background: #99cc33">
+          <i><u>153 204 51</u><q>#99CC33</q></i>
+        </li>
+        <li style="background: #669900">
+          <i><u>102 153 0</u><q>#669900</q></i>
+        </li>
+        <li style="background: #ccff66">
+          <i><u>204 255 102</u><q>#CCFF66</q></i>
+        </li>
+        <li style="background: #ccff00">
+          <i><u>204 255 0</u><q>#CCFF00</q></i>
+        </li>
+        <li style="background: #ccff33">
+          <i><u>204 255 51</u><q>#CCFF33</q></i>
+        </li>
+        <li style="background: #cccc99">
+          <i><u>204 204 153</u><q>#CCCC99</q></i>
+        </li>
+        <li style="background: #666633">
+          <i><u>102 102 51</u><q>#666633</q></i>
+        </li>
+        <li style="background: #333300">
+          <i><u>51 51 0</u><q>#333300</q></i>
+        </li>
+        <li style="background: #cccc66">
+          <i><u>204 204 102</u><q>#CCCC66</q></i>
+        </li>
+        <li style="background: #cccc33">
+          <i><u>204 204 51</u><q>#CCCC33</q></i>
+        </li>
+        <li style="background: #999966">
+          <i><u>153 153 102</u><q>#999966</q></i>
+        </li>
+        <li style="background: #999933">
+          <i><u>153 153 51</u><q>#999933</q></i>
+        </li>
+        <li style="background: #999900">
+          <i><u>153 153 0</u><q>#999900</q></i>
+        </li>
+        <li style="background: #666600">
+          <i><u>102 102 0</u><q>#666600</q></i>
+        </li>
+        <li style="background: #ffffff">
+          <i><u>255 255 255</u><q>#FFFFFF</q></i>
+        </li>
+        <li style="background: #cccccc">
+          <i><u>204 204 204</u><q>#CCCCCC</q></i>
+        </li>
+        <li style="background: #999999">
+          <i><u>153 153 153</u><q>#999999</q></i>
+        </li>
+        <li style="background: #666666">
+          <i><u>102 102 102</u><q>#666666</q></i>
+        </li>
+        <li style="background: #333333">
+          <i><u>51 51 51</u><q>#333333</q></i>
+        </li>
+        <li style="background: #000000">
+          <i><u>0 0 0</u><q>#000000</q></i>
+        </li>
+      </ul>
+    </main>
+    <script src="RGR.js"></script>
+  </body>
 </html>
