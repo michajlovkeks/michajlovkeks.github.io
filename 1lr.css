@@ -183,6 +183,56 @@ td, th {
     padding-top: 5px;
 }
 
+.paint {
+    background: rgb(254, 233, 204);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.back {
+    height: 200px;
+    width: 100px;
+    margin-left: 15px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tri1 {
+    width: 0;
+    height: 0;
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
+    border-bottom: 27px solid green;
+}
+
+.tri2 {
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 35px solid green;
+}
+
+.tri3 {
+    width: 0;
+    height: 0;
+    border-left: 43px solid transparent;
+    border-right: 43px solid transparent;
+    border-bottom: 43px solid green;
+}
+
+.stvol {
+    height: 25px;
+    width: 7px;
+    background: rgb(87, 34, 34);
+}
+
 .keys {
     display: flex;
     flex-direction: row;
