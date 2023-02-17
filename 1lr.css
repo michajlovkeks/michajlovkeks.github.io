@@ -124,11 +124,10 @@ hr {
 }
 
 table, td, th {
-    border: 2px solid;
+    border: 1px solid;
 }
 
 table {
-    border: 2px solid;
     border-collapse: collapse;
     background: rgb(254, 233, 204);
 }
