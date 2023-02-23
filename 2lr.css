@@ -43,7 +43,7 @@ main {
 
 body {
     background: rgb(255, 244, 227);
-    font-family: sans-serif;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;;
     font-size: 18px;
 }
 
