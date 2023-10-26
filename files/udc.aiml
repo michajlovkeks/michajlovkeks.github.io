@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- Приветствие -->
+	<category>
+		<pattern>ЗДРАВСТВУЙТЕ</pattern>
+		<template>Добро пожаловать в систему организованного распределения домашних обязанностей в семье Chores! Выберите, пожалуйста, один из пунктов меню: Вход как администратор/Вход как домочадец/Регистрация</template>
+	</category>
+    
+    <!-- Регистрация -->
+	<category>
+		<pattern>РЕГИСТРАЦИЯ</pattern>
+		<think><set TopicName = "registration">регистрация</set></think>
+		<template>Пожалуйста, введите "РЕГ" и ваш логин и пароль для регистрации.</template>
+	</category>
+
+	<!-- Вход -->
+	<category>
+		<pattern>ВХОД КАК ДОМОЧАДЕЦ</pattern>
+		<think><set TopicName = "member">домочадец</set></think>
+		<template>Пожалуйста, введите "ЛОГ" и ваш логин и пароль домочадца для входа.</template>
+	</category>
+
+	<!-- Вход как администратор -->
+	<category>
+		<pattern>ВХОД КАК АДМИНИСТРАТОР</pattern>
+		<think><set TopicName = "admin">администратор</set></think>
+		<template>Пожалуйста, введите "ЛОГ" ваш логин и пароль администратора для входа.</template>
+	</category>
+    
+
+<topic TopicName = "registration">
+    <category>
+        <pattern>Привет</pattern>
+        <template>Вы Новенький!</template>
+    </category>
+</topic>
+
+<topic TopicName = "member">
+    <category>
+        <pattern>Привет</pattern>
+        <template>Вы Домочадец!</template>
+    </category> 
+</topic>
+
+<topic TopicName = "admin">
+    <category>
+        <pattern>Привет</pattern>
+        <template>Вы Администратор!</template>
+    </category>
+</topic>
+
+</aiml>
